@@ -13,7 +13,9 @@
 4. now using the langchain and huggingface transformers it can convert it into vectors using sentance transformers
 5. the vectors and the question is then passed to the defined LLM and it generate resonse for the user quesry with the context of the uploaded csv.
 
-
+## Step to run the application
+1. Start frontend server using npm start
+2. Start the backend server using uvicorn main:app --reload
 
 ## Preface
 
