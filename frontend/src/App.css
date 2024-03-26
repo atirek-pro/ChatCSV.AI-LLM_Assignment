@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+#App-header {
+  background-color: #B0C4DE;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #333333;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.questionLabel {
+  font-size: 18px;
+  color: #333333; /* Light color for better contrast */
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: inline-block;
+  width: 120px;
+}
+
+.questionInput {
+  font-size: 16px; /* Adjust font size as needed */
+  padding: 8px; /* Adjust padding as needed */
+  border: 1px solid #ccc; /* Example border color */
+  border-radius: 4px; /* Adjust border radius as needed */
+  display: inline-block;
+  vertical-align: top;
+  width: calc(100% - 128px);
+}
+
+.fileLabel {
+  font-size: 18px;
+  color: #333333; /* Light color for better contrast */
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 4px;
+  /* margin-bottom: 8px; */
+  display: inline-block;
+  vertical-align: top;
+  width: auto
+}
+
+.submitBtn {
+  color: #333333;
+}
+
+.fileInput {
+  font-size: 16px; /* Adjust font size as needed */
+  padding: 8px; /* Adjust padding as needed */
+  border-radius: 4px; /* Adjust border radius as needed */
+  display: inline-block;
+  vertical-align: top;
+}
+
+.resultOutput {
+  font-size: 18px;
+  color: #333333; /* Light color for better contrast */
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: inline-block;
+  width: auto;
+}
+
