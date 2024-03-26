@@ -1,5 +1,20 @@
 # ProtonDatalabs AI developer Assignment - Chatbot application
 
+# Edits Made By Atirek Gupta
+
+## FrontEnd
+1. Modified the frontend App.tsx code by modifying the API calling functionlaity
+2. Designed the Front end using css and bootstrap
+
+## Backend
+1. Made the backend api fully functional by modifying the predict function
+2. Used opens-source model TheBloke/Llama-2-7B-Chat-GGUF (Link -> https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/blob/main/llama-2-7b-chat.Q5_K_M.gguf) and langchian to created the csv chatbot functionlaity
+3. Now it can recieve the uploaded csv file and question from the front end and save that uploaded csv in a temporary folder named temp
+4. now using the langchain and huggingface transformers it can convert it into vectors using sentance transformers
+5. the vectors and the question is then passed to the defined LLM and it generate resonse for the user quesry with the context of the uploaded csv.
+
+
+
 ## Preface
 
 At ProtonDatalabs, we leverage cutting-age gen-AI solutions to deliver buisness value to our clients. We are able to do this by combining aspects from AI modelling to full-stack developement.
